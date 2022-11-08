@@ -4,14 +4,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-If using Yarn please ==delete the package-lock.json first==:
-and 
+If using Yarn please DELETE the package-lock.json first:
 
 ### `yarn install`
 ### `yarn start`
 
-If using NPM:
-
+If using NPM no need to change anything just run these commands:
 
 ### `npm install`
 ### `npm start`
