@@ -11,6 +11,6 @@ If using Yarn please DELETE the package-lock.json first:
 
 If using NPM no need to change anything just run these commands:
 
-### `npm install`
+### `npm install --legacy-peer-deps`
 ### `npm start`
 
