@@ -3,5 +3,8 @@
 @tailwind utilities;
 
 
+
+@import '@pages/login/style.css';
+
 @import '@components/product-card/style.css';
 @import '@components/banner/style.css';

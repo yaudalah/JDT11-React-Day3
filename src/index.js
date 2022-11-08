@@ -5,9 +5,9 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 import "./index.css";
-import "antd/dist/antd.min.css";
-import "@assets/css/tailwind.css";
-import "@assets/css/antd.less";
+import 'antd/dist/antd.min.css';
+import '@assets/css/tailwind.css';
+import '@assets/css/antd.less';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

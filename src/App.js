@@ -1,13 +1,14 @@
+import { DetailProduct, HomePage, Login } from "@pages";
 import { Route, Routes } from "react-router-dom";
-import { HomePage, DetailProduct } from "@pages";
 import "./App.css";
 
 function App() {
   return (
-      <Routes>
-        <Route path="/" element={<HomePage/>} />
-        <Route exact path="/detail-product/:id" element={<DetailProduct />} />
-      </Routes>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route exact path="/detail-product/:id" element={<DetailProduct />} />
+      <Route exact path="/login" element={<Login />} />
+    </Routes>
   );
 }
 

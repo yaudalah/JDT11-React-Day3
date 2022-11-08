@@ -9,7 +9,7 @@ module.exports = {
         mini: '0px 0px 4px rgba(0, 0, 0, 0.15)'
       },
       colors: {
-        primary:'#7126B5',
+        primary:'#9ED5C5',
       }
     },
   },

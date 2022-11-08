@@ -1,4 +1,4 @@
-import { Button, Card } from "antd";
+import { Card } from "antd";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -14,9 +14,10 @@ const ProductCard = ({
   return (
     <>
       <Card
+        onClick={() => navigate(`/detail-product/${onClick}`)}
         className="product-card"
         hoverable
-        cover={<img alt="example" src={`https://picsum.photos/200`} />}
+        cover={<img alt="example" src={`https://picsum.photos/200/?random=${Math.random()}`} />}
       >
         <Meta
           title={productName}
@@ -27,12 +28,6 @@ const ProductCard = ({
             </div>
           }
         />
-        <Button
-          type="primary"
-          onClick={() => navigate(`/detail-product/${onClick}`)}
-        >
-          Detail Product
-        </Button>
       </Card>
     </>
   );
