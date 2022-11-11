@@ -9,9 +9,9 @@ module.exports = {
         mini: '0px 0px 4px rgba(0, 0, 0, 0.15)'
       },
       colors: {
-        primary:'#9ED5C5',
-      }
-    },
+        primary: '#647E68',
+      },
+    }
   },
   plugins: [],
 }

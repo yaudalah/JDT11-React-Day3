@@ -3,7 +3,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <Carousel autoplay effect="fade" className="m-5 mt-24">
+    <Carousel autoplay className="m-5 mt-24">
       <div>
         <h3 className="content-style">
           <img src="https://picsum.photos/200/?random=6" alt="lorem ipsum" />

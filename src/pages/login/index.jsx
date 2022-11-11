@@ -9,7 +9,7 @@ const { Title } = Typography;
 const Login = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const { token } = useSelector((state) => state.token.login);
+  const { token, loading } = useSelector((state) => state.token.login);
 
   const onFinish = async (values) => {
     dispatch(login(values))
@@ -67,8 +67,8 @@ const Login = () => {
           <br />
           <Form.Item>
             <Button
-              // loading={loading}
-              // disabled={loading}
+              loading={loading}
+              disabled={loading}
               htmlType="submit"
               type="primary"
               block

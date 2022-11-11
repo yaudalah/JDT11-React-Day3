@@ -5,6 +5,7 @@
 
 
 @import '@pages/login/style.css';
+@import '@pages/home/style.css';
 
 @import '@components/product-card/style.css';
 @import '@components/banner/style.css';

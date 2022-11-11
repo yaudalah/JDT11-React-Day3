@@ -36,20 +36,20 @@ const HomePage = () => {
   }, []);
 
   return (
-    <>
+    <main>
       <Navbar />
       <Banner />
       <Title level={3} className="ml-5">
         Cities
       </Title>
-      <div className="bg-slate-400 text-white text-center grid md:grid-cols-5 sm:grid-cols-2 gap-4 m-5 rounded">
+      <section className="bg-slate-400 text-white text-center grid md:grid-cols-5 sm:grid-cols-2 gap-4 m-5 rounded">
         {cities.map((item) => {
           return <span key={item?.id}> {item?.name}</span>;
         })}
-      </div>
+      </section>
 
       <Title className="text-center">Products</Title>
-      <div className="grid md:grid-cols-5 sm:grid-cols-2 gap-10 mt-5 m-5">
+      <section className="card__container">
         {products.map((item) => (
           <ProductCard
             key={item?.id}
@@ -59,8 +59,8 @@ const HomePage = () => {
             onClick={item.id}
           />
         ))}
-      </div>
-    </>
+      </section>
+    </main>
   );
 };
 
