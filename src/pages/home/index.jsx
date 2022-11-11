@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
-import { Banner, ProductCard, Navbar } from "@components";
-import api from "../../services/api";
+import { Banner, Navbar, ProductCard } from "@components";
 import Title from "antd/lib/typography/Title";
+import React, { useEffect, useState } from "react";
+import api from "../../services/api";
 
 const HomePage = () => {
   const [cities, setCities] = useState([]);
@@ -42,7 +42,7 @@ const HomePage = () => {
       <Title level={3} className="ml-5">
         Cities
       </Title>
-      <section className="bg-slate-400 text-white text-center grid md:grid-cols-5 sm:grid-cols-2 gap-4 m-5 rounded">
+      <section className="bg-slate-400 text-[#fff] grid md:grid-cols-5 sm:grid-cols-2 m-5 py-5 text-center rounded-xl">
         {cities.map((item) => {
           return <span key={item?.id}> {item?.name}</span>;
         })}

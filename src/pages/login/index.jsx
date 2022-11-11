@@ -73,6 +73,7 @@ const Login = () => {
               type="primary"
               block
               size="large"
+              shape="round"
             >
               Masuk
             </Button>

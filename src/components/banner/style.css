@@ -2,6 +2,6 @@
   @apply mx-5 rounded-md !important;
 }
 
-.content-style {
-  @apply m-0 h-[300px] text-[#fff] leading-[160px] text-center bg-primary flex justify-center;
+.banner__content-style {
+  @apply h-[450px] bg-primary flex justify-center !important;
 }

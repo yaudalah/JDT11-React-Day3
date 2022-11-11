@@ -3,26 +3,18 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <Carousel autoplay className="m-5 mt-24">
-      <div>
-        <h3 className="content-style">
-          <img src="https://picsum.photos/200/?random=6" alt="lorem ipsum" />
-        </h3>
+    <Carousel autoplay dotPosition={'top'} fade className="my-5 mx-12 mt-24">
+      <div className="banner__content-style">
+        <img src="https://picsum.photos/450/?random=6" alt="lorem ipsum" />
       </div>
-      <div>
-        <h3 className="content-style">
-          <img src="https://picsum.photos/200?random=3" alt="lorem ipsum" />
-        </h3>
+      <div className="banner__content-style">
+        <img src="https://picsum.photos/450/?random=3" alt="lorem ipsum" />
       </div>
-      <div>
-        <h3 className="content-style">
-          <img src="https://picsum.photos/200/?random=1" alt="lorem ipsum" />
-        </h3>
+      <div className="banner__content-style">
+        <img src="https://picsum.photos/450/?random=2" alt="lorem ipsum" />
       </div>
-      <div>
-        <h3 className="content-style">
-          <img src="https://picsum.photos/200/?random=2" alt="lorem ipsum" />
-        </h3>
+      <div className="banner__content-style">
+        <img src="https://picsum.photos/450/?random=1" alt="lorem ipsum" />
       </div>
     </Carousel>
   );
